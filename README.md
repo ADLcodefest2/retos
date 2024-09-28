@@ -14,7 +14,7 @@ Su desarrollo se realiza en código Python y se usa como IDE Visual Studio Code.
 ### 1. Recolección de datos
 
 Se recolecta la informacion asociada a las señales que estuvieron activas durante 20 minutos, estas fueron tomadas por el espectometro. Los satelites de los cuales se obtuvieron estas señales
-fueron el FACTSAL-3 y el satelite MISC-3. Las muestras de informacion fueron generadas cada 5 minutos, esto arrojo 4 archivos en formato .CSV, en donde se enconraba inicialmente resultados asoaciados a la lectura del espectometro, tales como frecuencia central, ancho de banda, entre otros.
+fueron el FACTSAL-1 y el satelite MISC-3. Las muestras de informacion fueron generadas cada 5 minutos, esto arrojo 4 archivos en formato .CSV, en donde se enconraba inicialmente resultados asoaciados a la lectura del espectometro, tales como frecuencia central, ancho de banda, entre otros.
 Ademas se econtraron resultados asoaciado a magnitud vs frecuencia y magnitud vs frecuencia vs tiempo. El pre-procesamiento de esta información se hizo mediante el uso de pandas.
 
 
@@ -32,24 +32,24 @@ Se identifica aquellos picos(puntos extremos) donde la señal puede poseer un co
 
 Característica
 
-*Frecuencia central
-*Ancho de banda (BW)
-*Amplitud/ Potencia
-*Nivel de ruido
-*Relación señal-ruido (SNR) 
-*Frecuencias de espuria
-*Frecuencias armónicas
-*Interferencias
-*Modulación
-*Picos espectrales 
-*Análisis de ancho de banda de ocupación
-*Crest factor
-*Frecuencia de repetición de pulso (PRF)
-*Análisis de canal adyacente
-*Drift de frecuencia
-*Tiempo de ocupación
-*Análisis de espectro temporal
-*Medición de potencia de canal
+* Frecuencia central
+* Ancho de banda (BW)
+* Amplitud/ Potencia
+* Nivel de ruido
+* Relación señal-ruido (SNR) 
+* Frecuencias de espuria
+* Frecuencias armónicas
+* Interferencias
+* Modulación
+* Picos espectrales 
+* Análisis de ancho de banda de ocupación
+* Crest factor
+* Frecuencia de repetición de pulso (PRF)
+* Análisis de canal adyacente
+* Drift de frecuencia
+* Tiempo de ocupación
+* Análisis de espectro temporal
+* Medición de potencia de canal
 
 ### 3. Visualización y Comportamiento
 
@@ -73,12 +73,12 @@ en el espectograma.
 ### 4. Entendimiento información repo
 
 
-*ejecutable*: Carpeta que contiene el archivo 'app.py' que contiene el desarrollo de la solucion. A su vez contiene el archivo 'requirements.txt' que cuenta con los requerimientos 
+* ejecutable: Carpeta que contiene el archivo 'app.py' que contiene el desarrollo de la solucion. A su vez contiene el archivo 'requirements.txt' que cuenta con los requerimientos 
 necesarios para la ejecucion de la solucion. 
-*assets*: Carpeta que contiene los logos usados en la app.
-*resources*: Carpeta que contiene los archivos salida del espectrometro tanto xlsx, como spm. Los archivos excel serviran para luego ser usados en la etapa de cargue de documentos.
-*'results.xlsx': Archivo salida que cuenta con las caracteristicas identificadas en las señales, este se calcula de forma automatica.
-*'video': Video de la solución propuesta.
+* assets: Carpeta que contiene los logos usados en la app.
+* resources: Carpeta que contiene los archivos salida del espectrometro tanto xlsx, como spm. Los archivos excel serviran para luego ser usados en la etapa de cargue de documentos.
+* 'results.xlsx': Archivo salida que cuenta con las caracteristicas identificadas en las señales, este se calcula de forma automatica.
+* 'video.mp4': Video de la solución propuesta.
 
 
 Si se requiere ejecutar el desarrollo, se propone seguir los siguientes pasos:
