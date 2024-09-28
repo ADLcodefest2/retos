@@ -72,6 +72,7 @@ en el espectograma.
 
 ### 4. Entendimiento información repo
 
+La rama de desarrollo es **"retofinal"**
 
 * ejecutable: Carpeta que contiene el archivo 'app.py' que contiene el desarrollo de la solucion. A su vez contiene el archivo 'requirements.txt' que cuenta con los requerimientos 
 necesarios para la ejecucion de la solucion. 
