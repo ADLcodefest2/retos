@@ -315,7 +315,7 @@ def update_output(contents):
 if __name__ == '__main__':
     app.run_server(port=8053, debug=True)
     
-#webbrowser.open_new("http://127.0.0.1:8053")
+webbrowser.open_new("http://127.0.0.1:8053")
 
 
 # %%
